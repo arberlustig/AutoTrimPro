@@ -58,9 +58,11 @@ export function App() {
       .then(setExportPath)
       .catch(console.error);
 
-    const cleanup = window.autotrimpro.onAnalyzeProgress((trackIndex, percent) => {
-      setAnalyzeProgress((prev) => ({ ...prev, [trackIndex]: percent }));
-    });
+    const cleanup = window.autotrimpro.onAnalyzeProgress(
+      (trackIndex, percent) => {
+        setAnalyzeProgress((prev) => ({ ...prev, [trackIndex]: percent }));
+      },
+    );
     return cleanup;
   }, []);
 
