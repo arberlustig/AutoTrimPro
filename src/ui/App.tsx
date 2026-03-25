@@ -1,12 +1,15 @@
 import React, { useMemo, useState, useEffect } from "react";
 import type {
-  AudioTrack,
   ExportFormat,
   QueueItem,
   SilenceSettings,
   AnalysisResult,
 } from "./types";
-import { WaveformPlayer } from "./WaveformPlayer";
+import { Header } from "./components/Header";
+import { EmptyState } from "./components/EmptyState";
+import { OutputSettings } from "./components/OutputSettings";
+import { ProcessingParameters } from "./components/ProcessingParameters";
+import { MediaTracks } from "./components/MediaTracks";
 
 const defaultSettings: SilenceSettings = {
   noiseDb: -35,
@@ -252,478 +255,38 @@ export function App() {
 
   return (
     <div className="app">
-      <header className="topbar">
-        <div className="brand-group">
-          <div className="brand-icon">
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-              <polyline points="17 8 12 3 7 8"></polyline>
-              <line x1="12" y1="3" x2="12" y2="15"></line>
-            </svg>
-          </div>
-          <span className="brand">AutoTrim Pro</span>
-        </div>
-        <button
-          className="theme-btn"
-          onClick={toggleTheme}
-          title="Toggle theme"
-        >
-          {theme === "dark" ? (
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <circle cx="12" cy="12" r="5" />
-              <line x1="12" y1="1" x2="12" y2="3" />
-              <line x1="12" y1="21" x2="12" y2="23" />
-              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-              <line x1="1" y1="12" x2="3" y2="12" />
-              <line x1="21" y1="12" x2="23" y2="12" />
-              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-            </svg>
-          ) : (
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-            </svg>
-          )}
-        </button>
-      </header>
+      <Header theme={theme} toggleTheme={toggleTheme} />
 
       <main className="container">
         {!selected ? (
-          <label className="drop">
-            <input
-              type="file"
-              multiple
-              accept="video/*,audio/*"
-              style={{ display: "none" }}
-              onChange={(e) => onPickFiles(e.target.files)}
-            />
-            <div className="drop-icon">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <polyline points="21 15 16 10 5 21"></polyline>
-              </svg>
-            </div>
-            <div className="drop-title">Import Media</div>
-            <div className="drop-subtitle">
-              Click to select files or drag them here
-            </div>
-            <span className="btn btn-primary">Select Files</span>
-          </label>
+          <EmptyState onPickFiles={onPickFiles} />
         ) : (
           <>
-            <div className="panel">
-              <div className="panel-header">
-                <h2 className="section-title">Output Settings</h2>
-                <button className="btn" onClick={resetState} disabled={busy}>
-                  Start Over
-                </button>
-              </div>
+            <OutputSettings
+              exportFormat={exportFormat}
+              setExportFormat={setExportFormat}
+              exportPath={exportPath}
+              setExportPath={setExportPath}
+              resetState={resetState}
+              busy={busy}
+            />
 
-              <div className="settings-grid mb-4">
-                <div className="control-group">
-                  <span className="control-header">Export Format</span>
-                  <div className="tabs">
-                    <button
-                      className={`tab ${exportFormat === "xml" ? "active" : ""}`}
-                      onClick={() => setExportFormat("xml")}
-                    >
-                      Premiere XML
-                    </button>
-                    <button
-                      className={`tab ${exportFormat === "mp4" ? "active" : ""}`}
-                      onClick={() => setExportFormat("mp4")}
-                    >
-                      Render MP4
-                    </button>
-                  </div>
-                </div>
+            <ProcessingParameters
+              settings={settings}
+              setSettings={setSettings}
+              defaultSettings={defaultSettings}
+              runAnalysis={runAnalysis}
+              canAnalyze={canAnalyze}
+            />
 
-                <div className="control-group">
-                  <span className="control-header">Output Folder</span>
-                  <div style={{ display: "flex", gap: "8px" }}>
-                    <div
-                      className="control-val"
-                      title={exportPath}
-                      style={{
-                        flex: 1,
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                      }}
-                    >
-                      {exportPath || "Select a folder"}
-                    </div>
-                    <button
-                      className="btn"
-                      onClick={async () => {
-                        const dir = await window.autotrimpro.chooseDirectory();
-                        if (dir) setExportPath(dir);
-                      }}
-                    >
-                      Choose
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="panel">
-              <h2 className="section-title mb-4">Processing Parameters</h2>
-              <div className="settings-grid">
-                <div className="control-group">
-                  <div className="control-header">
-                    <span>Silence Threshold (dB)</span>
-                    <span className="control-val">{settings.noiseDb} dB</span>
-                  </div>
-                  <input
-                    type="range"
-                    min={-60}
-                    max={-10}
-                    step={1}
-                    value={settings.noiseDb}
-                    onChange={(e) =>
-                      setSettings((s) => ({
-                        ...s,
-                        noiseDb: Number(e.target.value),
-                      }))
-                    }
-                  />
-                </div>
-                <div className="control-group">
-                  <div className="control-header">
-                    <span>Minimum Silence (s)</span>
-                    <span className="control-val">
-                      {settings.minSilenceSec.toFixed(1)} s
-                    </span>
-                  </div>
-                  <input
-                    type="range"
-                    min={0.1}
-                    max={5}
-                    step={0.1}
-                    value={settings.minSilenceSec}
-                    onChange={(e) =>
-                      setSettings((s) => ({
-                        ...s,
-                        minSilenceSec: Number(e.target.value),
-                      }))
-                    }
-                  />
-                </div>
-                <div className="control-group">
-                  <div className="control-header">
-                    <span>Minimum Speech (s)</span>
-                    <span className="control-val">
-                      {settings.minSpeechSec.toFixed(1)} s
-                    </span>
-                  </div>
-                  <input
-                    type="range"
-                    min={0.1}
-                    max={2}
-                    step={0.1}
-                    value={settings.minSpeechSec}
-                    onChange={(e) =>
-                      setSettings((s) => ({
-                        ...s,
-                        minSpeechSec: Number(e.target.value),
-                      }))
-                    }
-                  />
-                </div>
-                <div className="control-group">
-                  <div className="control-header">
-                    <span>Padding Margin (s)</span>
-                    <span className="control-val">
-                      {settings.marginSec.toFixed(2)} s
-                    </span>
-                  </div>
-                  <input
-                    type="range"
-                    min={0}
-                    max={1}
-                    step={0.05}
-                    value={settings.marginSec}
-                    onChange={(e) =>
-                      setSettings((s) => ({
-                        ...s,
-                        marginSec: Number(e.target.value),
-                      }))
-                    }
-                  />
-                </div>
-              </div>
-
-              <div className="mt-6" style={{ display: "flex", gap: "12px" }}>
-                <button
-                  className="btn btn-primary"
-                  onClick={runAnalysis}
-                  disabled={!canAnalyze}
-                >
-                  Analyze Media
-                </button>
-                <button
-                  className="btn"
-                  onClick={() => setSettings(defaultSettings)}
-                >
-                  Reset Defaults
-                </button>
-              </div>
-            </div>
-
-            <div className="panel">
-              <h2 className="section-title mb-4">Media Tracks</h2>
-              <div className="track-list">
-                {(selected.tracks ?? []).map((t: AudioTrack) => {
-                  const isSelected = selected.selectedTrackIndices.includes(
-                    t.index,
-                  );
-                  const isAnalyzed = selected.analyzeTrackIndices.includes(
-                    t.index,
-                  );
-                  return (
-                    <div
-                      key={t.index}
-                      className="track-item"
-                      style={{
-                        flexDirection: "column",
-                        gap: "12px",
-                        alignItems: "flex-start",
-                      }}
-                    >
-                      <div
-                        className="track-header"
-                        style={{ width: "100%", cursor: "default" }}
-                      >
-                        <div
-                          className="track-label"
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            flex: 1,
-                          }}
-                        >
-                          <div
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              justifyContent: "space-between",
-                            }}
-                          >
-                            <div>
-                              Audio Track {t.index + 1}
-                              <span className="track-meta">
-                                ({t.codec ?? "audio"}, {t.channels ?? "N/A"})
-                              </span>
-                            </div>
-
-                            <div
-                              style={{
-                                display: "flex",
-                                gap: "16px",
-                                alignItems: "center",
-                                fontSize: "0.9rem",
-                              }}
-                            >
-                              <label
-                                style={{
-                                  display: "flex",
-                                  alignItems: "center",
-                                  gap: "6px",
-                                  cursor: "pointer",
-                                }}
-                              >
-                                <input
-                                  type="checkbox"
-                                  className="checkbox-custom"
-                                  checked={isAnalyzed}
-                                  readOnly
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    setQueue((prev) =>
-                                      prev.map((q) => {
-                                        if (q.id === selected.id) {
-                                          const idxs =
-                                            q.analyzeTrackIndices.includes(
-                                              t.index,
-                                            )
-                                              ? q.analyzeTrackIndices.filter(
-                                                  (i) => i !== t.index,
-                                                )
-                                              : [
-                                                  ...q.analyzeTrackIndices,
-                                                  t.index,
-                                                ];
-                                          return {
-                                            ...q,
-                                            analyzeTrackIndices: idxs,
-                                          };
-                                        }
-                                        return q;
-                                      }),
-                                    );
-                                    if (
-                                      !previewUrls[t.index] &&
-                                      !busy &&
-                                      !isAnalyzed
-                                    ) {
-                                      loadPreview(t.index);
-                                    }
-                                  }}
-                                />
-                                Detect Silence
-                              </label>
-
-                              <label
-                                style={{
-                                  display: "flex",
-                                  alignItems: "center",
-                                  gap: "6px",
-                                  cursor: "pointer",
-                                }}
-                              >
-                                <input
-                                  type="checkbox"
-                                  className="checkbox-custom"
-                                  checked={isSelected}
-                                  readOnly
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    setQueue((prev) =>
-                                      prev.map((q) => {
-                                        if (q.id === selected.id) {
-                                          const idxs =
-                                            q.selectedTrackIndices.includes(
-                                              t.index,
-                                            )
-                                              ? q.selectedTrackIndices.filter(
-                                                  (i) => i !== t.index,
-                                                )
-                                              : [
-                                                  ...q.selectedTrackIndices,
-                                                  t.index,
-                                                ];
-                                          return {
-                                            ...q,
-                                            selectedTrackIndices: idxs,
-                                          };
-                                        }
-                                        return q;
-                                      }),
-                                    );
-                                  }}
-                                />
-                                Export Cut
-                              </label>
-                            </div>
-                          </div>
-
-                          {analyzeProgress[t.index] !== undefined &&
-                            analyzeProgress[t.index] < 1 && (
-                              <div
-                                style={{
-                                  display: "flex",
-                                  alignItems: "center",
-                                  gap: "8px",
-                                  marginTop: "6px",
-                                }}
-                              >
-                                <div
-                                  style={{
-                                    background: "var(--border-color)",
-                                    height: "6px",
-                                    borderRadius: "3px",
-                                    width: "150px",
-                                    overflow: "hidden",
-                                  }}
-                                >
-                                  <div
-                                    style={{
-                                      width: `${Math.round(
-                                        analyzeProgress[t.index]! * 100,
-                                      )}%`,
-                                      height: "100%",
-                                      background: "var(--accent-color)",
-                                      transition: "width 0.2s",
-                                    }}
-                                  />
-                                </div>
-                                <span className="text-xs text-muted">
-                                  {Math.round(analyzeProgress[t.index]! * 100)}%
-                                </span>
-                              </div>
-                            )}
-                        </div>
-                      </div>
-                      {(isAnalyzed || isSelected) && (
-                        <div style={{ marginLeft: "8px", width: "100%" }}>
-                          {!previewUrls[t.index] ? (
-                            <button
-                              className="btn text-xs"
-                              onClick={() => loadPreview(t.index)}
-                              disabled={busy}
-                            >
-                              Load Waveform Preview
-                            </button>
-                          ) : (
-                            <div
-                              style={{
-                                background: "var(--panel-bg)",
-                                borderRadius: "var(--radius-sm)",
-                                overflow: "hidden",
-                                width: "100%",
-                              }}
-                            >
-                              <WaveformPlayer
-                                audioUrl={previewUrls[t.index]}
-                                silenceSegments={
-                                  selected.analysis?.[t.index]
-                                    ?.detectedSilences || []
-                                }
-                              />
-                            </div>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
+            <MediaTracks
+              selected={selected}
+              setQueue={setQueue}
+              previewUrls={previewUrls}
+              analyzeProgress={analyzeProgress}
+              busy={busy}
+              loadPreview={loadPreview}
+            />
 
             {status && <div className="status-msg status-info">{status}</div>}
             {error && <div className="status-msg status-error">{error}</div>}
