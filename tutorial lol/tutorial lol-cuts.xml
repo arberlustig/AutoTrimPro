@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+  <sequence>
+    <name>CUT - tutorial lol</name>
+    <duration>5040</duration>
+    <rate>
+      <timebase>60</timebase>
+      <ntsc>FALSE</ntsc>
+    </rate>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <width>1920</width>
+            <height>1080</height>
+            <anamorphic>FALSE</anamorphic>
+            <pixelaspectratio>square</pixelaspectratio>
+            <fielddominance>none</fielddominance>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+          </samplecharacteristics>
+        </format>
+        <track>
+
+        <clipitem id="clipitem-1">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+          <file id="videofile-1">
+            <name>tutorial lol.mp4</name>
+            <pathurl>file://localhost/G:/tutorial%20lol.mp4</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <video>
+                <samplecharacteristics>
+                  <rate>
+                    <timebase>60</timebase>
+                    <ntsc>FALSE</ntsc>
+                  </rate>
+                  <width>1920</width>
+                  <height>1080</height>
+                  <anamorphic>FALSE</anamorphic>
+                  <pixelaspectratio>square</pixelaspectratio>
+                  <fielddominance>none</fielddominance>
+                </samplecharacteristics>
+              </video>
+
+            </media>
+          </file>
+        </clipitem>
+
+        <clipitem id="clipitem-2">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-3">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-4">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-5">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-6">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-7">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-8">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-9">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-10">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-11">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-12">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-13">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-14">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-15">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-16">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-17">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-18">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-19">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-20">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-21">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-22">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-23">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-24">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-25">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-26">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-27">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+          <file id="videofile-1"/>
+        </clipitem>
+
+        <clipitem id="clipitem-28">
+          <name>tutorial lol.mp4</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+          <file id="videofile-1"/>
+        </clipitem>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format>
+          <samplecharacteristics>
+            <depth>16</depth>
+            <samplerate>48000</samplerate>
+          </samplecharacteristics>
+        </format>
+
+        <track>
+
+        <clipitem id="audioclip-1-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+
+          <file id="audiofile-track1">
+            <name>tutorial lol-track1-selected.wav</name>
+            <pathurl>file://localhost/C:/Users/boahd/OneDrive/Desktop/tutorial%20lol/tutorial%20lol-track1-selected.wav</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <audio>
+                <samplecharacteristics>
+                  <depth>16</depth>
+                  <samplerate>48000</samplerate>
+                </samplecharacteristics>
+                <channelcount>2</channelcount>
+              </audio>
+            </media>
+          </file>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-2-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-3-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-4-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-5-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-6-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-7-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-8-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-9-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-10-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-11-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-12-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-13-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-14-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-15-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-16-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-17-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-18-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-19-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-20-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-21-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-22-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-23-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-24-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-25-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-26-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-27-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-28-track1">
+          <name>tutorial lol-track1-selected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+
+          <file id="audiofile-track1"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+        </track>
+
+        <track>
+
+        <clipitem id="audioclip-1-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+
+          <file id="audiofile-track2">
+            <name>tutorial lol-track2-unselected.wav</name>
+            <pathurl>file://localhost/C:/Users/boahd/OneDrive/Desktop/tutorial%20lol/tutorial%20lol-track2-unselected.wav</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <audio>
+                <samplecharacteristics>
+                  <depth>16</depth>
+                  <samplerate>48000</samplerate>
+                </samplecharacteristics>
+                <channelcount>2</channelcount>
+              </audio>
+            </media>
+          </file>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-2-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-3-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-4-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-5-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-6-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-7-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-8-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-9-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-10-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-11-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-12-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-13-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-14-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-15-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-16-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-17-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-18-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-19-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-20-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-21-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-22-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-23-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-24-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-25-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-26-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-27-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-28-track2">
+          <name>tutorial lol-track2-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+
+          <file id="audiofile-track2"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+        </track>
+
+        <track>
+
+        <clipitem id="audioclip-1-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+
+          <file id="audiofile-track3">
+            <name>tutorial lol-track3-unselected.wav</name>
+            <pathurl>file://localhost/C:/Users/boahd/OneDrive/Desktop/tutorial%20lol/tutorial%20lol-track3-unselected.wav</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <audio>
+                <samplecharacteristics>
+                  <depth>16</depth>
+                  <samplerate>48000</samplerate>
+                </samplecharacteristics>
+                <channelcount>2</channelcount>
+              </audio>
+            </media>
+          </file>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-2-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-3-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-4-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-5-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-6-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-7-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-8-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-9-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-10-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-11-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-12-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-13-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-14-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-15-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-16-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-17-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-18-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-19-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-20-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-21-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-22-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-23-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-24-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-25-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-26-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-27-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-28-track3">
+          <name>tutorial lol-track3-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+
+          <file id="audiofile-track3"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+        </track>
+
+        <track>
+
+        <clipitem id="audioclip-1-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+
+          <file id="audiofile-track4">
+            <name>tutorial lol-track4-unselected.wav</name>
+            <pathurl>file://localhost/C:/Users/boahd/OneDrive/Desktop/tutorial%20lol/tutorial%20lol-track4-unselected.wav</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <audio>
+                <samplecharacteristics>
+                  <depth>16</depth>
+                  <samplerate>48000</samplerate>
+                </samplecharacteristics>
+                <channelcount>2</channelcount>
+              </audio>
+            </media>
+          </file>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-2-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-3-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-4-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-5-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-6-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-7-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-8-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-9-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-10-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-11-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-12-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-13-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-14-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-15-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-16-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-17-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-18-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-19-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-20-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-21-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-22-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-23-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-24-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-25-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-26-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-27-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-28-track4">
+          <name>tutorial lol-track4-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+
+          <file id="audiofile-track4"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+        </track>
+
+        <track>
+
+        <clipitem id="audioclip-1-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+
+          <file id="audiofile-track5">
+            <name>tutorial lol-track5-unselected.wav</name>
+            <pathurl>file://localhost/C:/Users/boahd/OneDrive/Desktop/tutorial%20lol/tutorial%20lol-track5-unselected.wav</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <audio>
+                <samplecharacteristics>
+                  <depth>16</depth>
+                  <samplerate>48000</samplerate>
+                </samplecharacteristics>
+                <channelcount>2</channelcount>
+              </audio>
+            </media>
+          </file>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-2-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-3-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-4-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-5-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-6-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-7-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-8-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-9-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-10-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-11-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-12-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-13-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-14-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-15-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-16-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-17-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-18-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-19-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-20-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-21-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-22-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-23-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-24-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-25-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-26-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-27-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-28-track5">
+          <name>tutorial lol-track5-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+
+          <file id="audiofile-track5"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+        </track>
+
+        <track>
+
+        <clipitem id="audioclip-1-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>0</start>
+          <end>132</end>
+          <in>43</in>
+          <out>175</out>
+
+          <file id="audiofile-track6">
+            <name>tutorial lol-track6-unselected.wav</name>
+            <pathurl>file://localhost/C:/Users/boahd/OneDrive/Desktop/tutorial%20lol/tutorial%20lol-track6-unselected.wav</pathurl>
+            <rate>
+              <timebase>60</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <media>
+              <audio>
+                <samplecharacteristics>
+                  <depth>16</depth>
+                  <samplerate>48000</samplerate>
+                </samplecharacteristics>
+                <channelcount>2</channelcount>
+              </audio>
+            </media>
+          </file>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-2-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>132</start>
+          <end>150</end>
+          <in>177</in>
+          <out>195</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-3-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>150</start>
+          <end>245</end>
+          <in>203</in>
+          <out>298</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-4-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>245</start>
+          <end>322</end>
+          <in>300</in>
+          <out>377</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-5-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>322</start>
+          <end>1056</end>
+          <in>389</in>
+          <out>1123</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-6-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1056</start>
+          <end>1257</end>
+          <in>1142</in>
+          <out>1343</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-7-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1257</start>
+          <end>1436</end>
+          <in>1364</in>
+          <out>1543</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-8-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1436</start>
+          <end>1758</end>
+          <in>1559</in>
+          <out>1881</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-9-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1758</start>
+          <end>1916</end>
+          <in>1891</in>
+          <out>2049</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-10-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1916</start>
+          <end>1988</end>
+          <in>2082</in>
+          <out>2154</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-11-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>1988</start>
+          <end>2176</end>
+          <in>2156</in>
+          <out>2344</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-12-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2176</start>
+          <end>2223</end>
+          <in>2388</in>
+          <out>2435</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-13-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2223</start>
+          <end>2260</end>
+          <in>2470</in>
+          <out>2507</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-14-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2260</start>
+          <end>2341</end>
+          <in>2510</in>
+          <out>2591</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-15-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2341</start>
+          <end>2454</end>
+          <in>2593</in>
+          <out>2706</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-16-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2454</start>
+          <end>2538</end>
+          <in>2708</in>
+          <out>2792</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-17-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2538</start>
+          <end>2642</end>
+          <in>2803</in>
+          <out>2907</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-18-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2642</start>
+          <end>2810</end>
+          <in>2915</in>
+          <out>3083</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-19-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2810</start>
+          <end>2974</end>
+          <in>3088</in>
+          <out>3252</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-20-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>2974</start>
+          <end>3084</end>
+          <in>3277</in>
+          <out>3387</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-21-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3084</start>
+          <end>3110</end>
+          <in>3415</in>
+          <out>3441</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-22-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3110</start>
+          <end>3762</end>
+          <in>3445</in>
+          <out>4097</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-23-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3762</start>
+          <end>3951</end>
+          <in>4102</in>
+          <out>4291</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-24-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>3951</start>
+          <end>4062</end>
+          <in>4292</in>
+          <out>4403</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-25-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4062</start>
+          <end>4225</end>
+          <in>4437</in>
+          <out>4600</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-26-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4225</start>
+          <end>4943</end>
+          <in>4607</in>
+          <out>5325</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-27-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4943</start>
+          <end>4972</end>
+          <in>5346</in>
+          <out>5375</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+
+        <clipitem id="audioclip-28-track6">
+          <name>tutorial lol-track6-unselected.wav</name>
+          <enabled>TRUE</enabled>
+          <start>4972</start>
+          <end>5040</end>
+          <in>5452</in>
+          <out>5520</out>
+
+          <file id="audiofile-track6"/>
+          <sourcetrack>
+            <mediatype>audio</mediatype>
+            <trackindex>1</trackindex>
+          </sourcetrack>
+        </clipitem>
+        </track>
+      </audio>
+    </media>
+  </sequence>
+</xmeml>
