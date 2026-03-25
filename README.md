@@ -5,12 +5,12 @@ AutoTrimPro is a local desktop application built with Electron, React, and Vite.
 ## Features
 
 - **Silence Detection**: Analyzes audio using `ffmpeg`'s `silencedetect`.
-- **Customizable Trimming**: 
+- **Customizable Trimming**:
   - Adjust noise threshold (dB).
   - Set minimum silence duration.
   - Set minimum speech duration to merge short speech segments.
   - Add margins (padding) around your cuts.
-- **Export Options**: 
+- **Export Options**:
   - Generates a **Premiere Pro XML (FCP7)** with the already-cut timeline ready for import.
 
 ## Requirements
@@ -46,4 +46,3 @@ To build the executable for your operative system:
 ```bash
 npm run build
 ```
-
