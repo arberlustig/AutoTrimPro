@@ -59,14 +59,16 @@ async function createWindow() {
 
 app.whenReady().then(async () => {
   protocol.registerFileProtocol("local-media", (request, callback) => {
-    let url = request.url.replace("local-media://", "");
     try {
-      url = decodeURIComponent(url);
+      const urlObj = new URL(request.url);
+      const filePath = urlObj.searchParams.get("path");
+      if (filePath) {
+        return callback({ path: filePath });
+      }
     } catch (err) {
-      // Ignoriere decode errors
+      console.error("[local-media] URL parse error:", err);
     }
-    // Verhindere Zugriffe auf unzulässige Pfade, indem wir den echten Pfad nehmen
-    return callback({ path: url });
+    return callback({ path: "" });
   });
 
   await createWindow();
