@@ -66,10 +66,11 @@ function invertToKeepSegments(
   settings: SilenceSettings,
 ) {
   // Apply margins around silence before inverting.
+  // A margin (padding) means we want more speech, so we shrink the silences at both ends.
   const margin = Math.max(0, settings.marginSec);
   const withMargin = silences.map((s) => ({
-    start: clamp(s.start - margin, 0, durationSec),
-    end: clamp(s.end + margin, 0, durationSec),
+    start: clamp(s.start + margin, 0, durationSec),
+    end: clamp(s.end - margin, 0, durationSec),
   }));
   const mergedSilences = normalizeSegments(withMargin);
 

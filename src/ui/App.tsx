@@ -244,7 +244,7 @@ export function App() {
       });
       const customUrl = `local-media://asset?path=${encodeURIComponent(wavPath)}`;
       setPreviewObjectUrls((prev) => {
-        if (prev[trackIndex] && prev[trackIndex].startsWith('blob:')) {
+        if (prev[trackIndex] && prev[trackIndex].startsWith("blob:")) {
           URL.revokeObjectURL(prev[trackIndex]);
         }
         return { ...prev, [trackIndex]: customUrl };
