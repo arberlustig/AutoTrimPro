@@ -7,6 +7,8 @@ AutoTrimPro ist eine robuste, lokale Desktop-Anwendung, die mit Electron, React 
 
 HINWEIS: Wenn du beim Abspielen der Wellenform-Vorschau (Waveform) eine schlechte Audioqualität erlebst, keine Sorge! Beim Exportieren der geschnittenen Version ist das Audio völlig in Ordnung, wenn du es in Premiere Pro einfügst! Ich werde auf jeden Fall noch ein Video teilen, wie man alles richtig einstellt und wie das Programm gedacht ist!
 
+Ich entwickle AutoTrim Pro als Open-Source-Projekt, weil ich davon überzeugt bin, dass kostenlose Software einen Mehrwert für alle bietet. Das Programm wird daher dauerhaft für jeden frei zugänglich bleiben. Falls du meine Arbeit am Code schätzt, kannst du das Projekt gerne mit einem Beitrag deiner Wahl unterstützen. Das ist absolut optional und eine reine Geste der Anerkennung 🤝 https://paypal.me/ArberBaui
+
 ## Funktionen
 
 - **Automatisierte Stille-Erkennung**: Analysiert Audio mit den leistungsstarken `silencedetect`-Algorithmen von `ffmpeg`.
