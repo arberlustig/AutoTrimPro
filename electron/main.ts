@@ -38,7 +38,8 @@ async function createWindow() {
     await win.loadURL("http://127.0.0.1:5173/");
     win.webContents.openDevTools({ mode: "detach" });
   } else {
-    await win.loadFile(path.join(__dirname, "../dist/index.html"));
+    // Sichere Pfadauflösung für ge-packte Electron Apps
+    await win.loadFile(path.join(app.getAppPath(), "dist", "index.html"));
   }
 }
 
