@@ -79,6 +79,24 @@ export async function exportFcp7Xml(
           </file>`
         : `          <file id="videofile-1"/>`;
 
+      const linkIndex = c.idx + 1;
+      let linksXml = `
+          <link>
+            <linkclipref>clipitem-${linkIndex}</linkclipref>
+            <mediatype>video</mediatype>
+            <trackindex>1</trackindex>
+            <clipindex>${linkIndex}</clipindex>
+          </link>`;
+      for (let t = 1; t <= numAudioTracks; t++) {
+        linksXml += `
+          <link>
+            <linkclipref>audioclip-${linkIndex}-track${t}</linkclipref>
+            <mediatype>audio</mediatype>
+            <trackindex>${t}</trackindex>
+            <clipindex>${linkIndex}</clipindex>
+          </link>`;
+      }
+
       return `
         <clipitem id="clipitem-${c.idx + 1}">
           <name>${xmlEscape(name)}</name>
@@ -88,6 +106,7 @@ export async function exportFcp7Xml(
           <in>${c.inFrames}</in>
           <out>${c.outFrames}</out>
 ${fileNode}
+${linksXml}
         </clipitem>`;
     })
     .join("");
@@ -125,6 +144,24 @@ ${fileNode}
           </file>`
               : `          <file id="${audioFileId}"/>`;
 
+          const linkIndex = c.idx + 1;
+          let linksXml = `
+          <link>
+            <linkclipref>clipitem-${linkIndex}</linkclipref>
+            <mediatype>video</mediatype>
+            <trackindex>1</trackindex>
+            <clipindex>${linkIndex}</clipindex>
+          </link>`;
+          for (let t = 1; t <= numAudioTracks; t++) {
+            linksXml += `
+          <link>
+            <linkclipref>audioclip-${linkIndex}-track${t}</linkclipref>
+            <mediatype>audio</mediatype>
+            <trackindex>${t}</trackindex>
+            <clipindex>${linkIndex}</clipindex>
+          </link>`;
+          }
+
           return `
         <clipitem id="audioclip-${c.idx + 1}-track${trackIdx + 1}">
           <name>${xmlEscape(audioFileName)}</name>
@@ -138,6 +175,7 @@ ${fileNode}
             <mediatype>audio</mediatype>
             <trackindex>${sourceTrackIndex}</trackindex>
           </sourcetrack>
+${linksXml}
         </clipitem>`;
         })
         .join("");
