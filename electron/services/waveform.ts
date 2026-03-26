@@ -61,7 +61,9 @@ export async function extractAudioPreview(args: { sourcePath: string; trackIndex
   const dir = path.join(app.getPath('userData'), 'previews');
   await fs.mkdir(dir, { recursive: true });
 
-  const outWav = path.join(dir, `${hashKey(`${sourcePath}|a${trackIndex}`)}.wav`);
+  // Nutze eine extrem niedrige Samplerate (8000 Hz, mono), damit wir bei
+  // 2,5 Stunden+ Videos nicht das Speilcherlimit des Chrome Tabs sprengen!
+  const outWav = path.join(dir, `${hashKey(`${sourcePath}|a${trackIndex}|8k`)}.wav`);
   try {
     await fs.access(outWav);
   } catch {
@@ -73,9 +75,9 @@ export async function extractAudioPreview(args: { sourcePath: string; trackIndex
       '-map',
       `0:a:${trackIndex}`,
       '-ac',
-      '2',
+      '1', // Mono reicht völlig aus für Waveform & Preview
       '-ar',
-      '44100',
+      '8000', // 8 kHz um 80% RAM zu sparen (verhindert Absturz)
       '-c:a',
       'pcm_s16le',
       outWav
