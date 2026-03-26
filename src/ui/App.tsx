@@ -242,14 +242,14 @@ export function App() {
         sourcePath: selected.sourcePath,
         trackIndex,
       });
-      const bytes = await window.autotrimpro.readFileBytes({ path: wavPath });
-      const blob = new Blob([new Uint8Array(bytes)], { type: "audio/wav" });
-      const objUrl = URL.createObjectURL(blob);
+      const customUrl = `local-media://${encodeURIComponent(wavPath)}`;
       setPreviewObjectUrls((prev) => {
-        if (prev[trackIndex]) URL.revokeObjectURL(prev[trackIndex]);
-        return { ...prev, [trackIndex]: objUrl };
+        if (prev[trackIndex] && prev[trackIndex].startsWith('blob:')) {
+          URL.revokeObjectURL(prev[trackIndex]);
+        }
+        return { ...prev, [trackIndex]: customUrl };
       });
-      setPreviewUrls((prev) => ({ ...prev, [trackIndex]: objUrl }));
+      setPreviewUrls((prev) => ({ ...prev, [trackIndex]: customUrl }));
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     }

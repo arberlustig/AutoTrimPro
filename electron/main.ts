@@ -1,4 +1,4 @@
-import { app, BrowserWindow, dialog, ipcMain } from "electron";
+import { app, BrowserWindow, dialog, ipcMain, protocol } from "electron";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { importFileToAppData } from "./services/importFile";
@@ -16,6 +16,19 @@ import type {
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+protocol.registerSchemesAsPrivileged([
+  {
+    scheme: "local-media",
+    privileges: {
+      standard: true,
+      secure: true,
+      supportFetchAPI: true,
+      bypassCSP: true,
+      stream: true,
+    },
+  },
+]);
 
 function isDev() {
   return !app.isPackaged;
@@ -44,6 +57,17 @@ async function createWindow() {
 }
 
 app.whenReady().then(async () => {
+  protocol.registerFileProtocol("local-media", (request, callback) => {
+    let url = request.url.replace("local-media://", "");
+    try {
+      url = decodeURIComponent(url);
+    } catch (err) {
+      // Ignoriere decode errors
+    }
+    // Verhindere Zugriffe auf unzulässige Pfade, indem wir den echten Pfad nehmen
+    return callback({ path: url });
+  });
+
   await createWindow();
 
   app.on("activate", async () => {
