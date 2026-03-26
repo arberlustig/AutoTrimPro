@@ -48,7 +48,7 @@ Wenn du eine Datei importierst, listet AutoTrimPro alle verfügbaren Audiospuren
 
 1. Kopiere oder klone das Repository:
    ```bash
-   git clone <deine-repo-url>
+   git clone https://github.com/arberlustig/AutoTrimPro.git
    cd autotrimpro
    ```
 2. Installiere die Abhängigkeiten:
