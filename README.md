@@ -45,7 +45,7 @@ When you import a file, AutoTrimPro lists all available audio tracks (useful for
 
 1. Copy or clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/arberlustig/AutoTrimPro.git
    cd autotrimpro
    ```
 2. Install dependencies:
