@@ -4,6 +4,8 @@ AutoTrimPro is a robust local desktop application built with Electron, React, an
 
 DISCLAIMER: If you experience bad audio quality while playing the waveform preview don't worry! By exporting the cutted version the audio will be completely okay if you put it into premiere pro! I will definitely share a video how to set it up correctly and how the program is intended to be used!
 
+I develop AutoTrim Pro as an open-source project because I believe that free software provides value for everyone. For this reason, the program will always remain free and accessible to all. If you appreciate my work on the code, you are welcome to support the project with a contribution of your choice. This is entirely optional and serves as a simple gesture of appreciation 🤝 paypal.me/ArberBaui
+
 ## Features
 
 - **Automated Silence Detection**: Analyzes audio using `ffmpeg`'s powerful `silencedetect` algorithms.
