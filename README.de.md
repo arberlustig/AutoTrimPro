@@ -1,5 +1,8 @@
 # AutoTrimPro
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/arberlustig/AutoTrimPro/blob/main/README.md)
+[![de](https://img.shields.io/badge/lang-de-yellow.svg)](https://github.com/arberlustig/AutoTrimPro/blob/main/README.de.md)
+
 AutoTrimPro ist eine robuste, lokale Desktop-Anwendung, die mit Electron, React und Vite erstellt wurde. Sie erkennt automatisch Stille in deinen Video- oder Audiodateien und exportiert nahtlos eine getrimmte (geschnittene) Timeline, wodurch du Stunden an mühsamer manueller Videobearbeitung sparst.
 
 HINWEIS: Wenn du beim Abspielen der Wellenform-Vorschau (Waveform) eine schlechte Audioqualität erlebst, keine Sorge! Beim Exportieren der geschnittenen Version ist das Audio völlig in Ordnung, wenn du es in Premiere Pro einfügst! Ich werde auf jeden Fall noch ein Video teilen, wie man alles richtig einstellt und wie das Programm gedacht ist!
