@@ -2,6 +2,8 @@
 
 AutoTrimPro is a robust local desktop application built with Electron, React, and Vite. It automatically detects silence in your video or audio files and seamlessly exports a trimmed timeline directly, saving you hours of tedious manual video editing.
 
+DISCLAIMER: If you experience bad audio quality while playing the waveform preview don't worry! By exporting the cutted version the audio will be completely okay if you put it into premiere pro! I will definitely share a video how to set it up correctly and how the program is intended to be used!
+
 ## Features
 
 - **Automated Silence Detection**: Analyzes audio using `ffmpeg`'s powerful `silencedetect` algorithms.
