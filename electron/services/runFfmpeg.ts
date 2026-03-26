@@ -15,13 +15,21 @@ export async function runFfmpeg(
     throw new Error("ffmpeg not found (ffmpeg-static returned null).");
   }
 
+  // FIX: In der gepackten Electron-App (ASAR) liegt ffmpeg.exe im app.asar.unpacked Ordner,
+  // da wir es in der package.json mit asarUnpack definiert haben. 
+  // ffmpeg-static liefert aber den Pfad in app.asar zurück, was zu ENOENT führt.
+  let fixedFfmpegPath = ffmpegPath as string;
+  if (fixedFfmpegPath.includes('app.asar') && !fixedFfmpegPath.includes('app.asar.unpacked')) {
+    fixedFfmpegPath = fixedFfmpegPath.replace('app.asar', 'app.asar.unpacked');
+  }
+
   const safeArgs = ["-nostdin", ...args];
-  console.log(`[FFMPEG] Executing: ${ffmpegPath} ${safeArgs.join(" ")}`);
+  console.log(`[FFMPEG] Executing: ${fixedFfmpegPath} ${safeArgs.join(" ")}`);
 
   return await new Promise((resolve, reject) => {
     let p;
     try {
-      p = spawn(ffmpegPath as string, safeArgs, { windowsHide: true });
+      p = spawn(fixedFfmpegPath, safeArgs, { windowsHide: true });
     } catch (err) {
       console.error("[FFMPEG] Spawn error:", err);
       return reject(err);
