@@ -40,6 +40,15 @@ When you import a file, AutoTrimPro lists all available audio tracks (useful for
 - **Export Format**: Choose between a Premiere-compatible XML (which creates an editable sequence in Premiere Pro with all the cuts applied) or an MP4 render.
 - **Output Folder**: Select where the final files should be saved. Click **Execute Export** when ready!
 
+## Workflow: Import into Adobe Premiere Pro
+
+To use the already trimmed files correctly in Premiere Pro, just follow these quick steps:
+
+1. **Drag & Drop the Folder**: Take the **entire exported folder**, exactly as it is, and drop it directly into your existing Adobe Premiere Pro project panel.
+2. **Open the Folder**: Inside Premiere Pro, double-click the newly imported folder to reveal its files.
+3. **Open the Cut Timeline**: Inside, you will immediately see a nested sequence whose name starts with the word **"CUT"** (e.g. `CUT_your_video...`).
+4. **Double-click** this `CUT` sequence and voilà – you will instantly see your fully cut and synchronized timeline, ready for further editing!
+
 ---
 
 - Node.js (v18+ LTS recommended)
